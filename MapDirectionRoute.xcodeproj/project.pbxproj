@@ -3,27 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6F265F7623D33C7300C270D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F7523D33C7300C270D7 /* AppDelegate.swift */; };
 		6F265F7823D33C7300C270D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F7723D33C7300C270D7 /* SceneDelegate.swift */; };
-		6F265F7A23D33C7300C270D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F7923D33C7300C270D7 /* ContentView.swift */; };
 		6F265F7C23D33C7500C270D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F265F7B23D33C7500C270D7 /* Assets.xcassets */; };
 		6F265F7F23D33C7500C270D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F265F7E23D33C7500C270D7 /* Preview Assets.xcassets */; };
 		6F265F8223D33C7500C270D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F265F8023D33C7500C270D7 /* LaunchScreen.storyboard */; };
+		6F265F8A23D33CB500C270D7 /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F8923D33CB500C270D7 /* MapViewContainer.swift */; };
+		6F265F8C23D33D2100C270D7 /* SelectLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F8B23D33D2100C270D7 /* SelectLocationView.swift */; };
+		6F265F8E23D33D8B00C270D7 /* DirectionsSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F8D23D33D8B00C270D7 /* DirectionsSearchView.swift */; };
+		6F265F9023D33DC300C270D7 /* RouteInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F8F23D33DC300C270D7 /* RouteInfoView.swift */; };
+		6F265F9223D33E2200C270D7 /* LoadingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F9123D33E2200C270D7 /* LoadingHUD.swift */; };
+		6F265F9423D33E4900C270D7 /* MapItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F9323D33E4900C270D7 /* MapItemView.swift */; };
+		6F265F9623D33E7500C270D7 /* StatusBarCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F9523D33E7500C270D7 /* StatusBarCover.swift */; };
+		6F265F9823D33E9500C270D7 /* DirectionsEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F9723D33E9500C270D7 /* DirectionsEnvironment.swift */; };
+		6F265F9B23D3405A00C270D7 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 6F265F9A23D3405A00C270D7 /* JGProgressHUD */; };
+		6F265F9D23D340B100C270D7 /* Adress+MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F265F9C23D340B100C270D7 /* Adress+MapKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F265F7223D33C7300C270D7 /* MapDirectionRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDirectionRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F265F7523D33C7300C270D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F265F7723D33C7300C270D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F265F7923D33C7300C270D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F265F7B23D33C7500C270D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F265F7E23D33C7500C270D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F265F8123D33C7500C270D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F265F8323D33C7500C270D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F265F8923D33CB500C270D7 /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
+		6F265F8B23D33D2100C270D7 /* SelectLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLocationView.swift; sourceTree = "<group>"; };
+		6F265F8D23D33D8B00C270D7 /* DirectionsSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsSearchView.swift; sourceTree = "<group>"; };
+		6F265F8F23D33DC300C270D7 /* RouteInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteInfoView.swift; sourceTree = "<group>"; };
+		6F265F9123D33E2200C270D7 /* LoadingHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingHUD.swift; sourceTree = "<group>"; };
+		6F265F9323D33E4900C270D7 /* MapItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapItemView.swift; sourceTree = "<group>"; };
+		6F265F9523D33E7500C270D7 /* StatusBarCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarCover.swift; sourceTree = "<group>"; };
+		6F265F9723D33E9500C270D7 /* DirectionsEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsEnvironment.swift; sourceTree = "<group>"; };
+		6F265F9C23D340B100C270D7 /* Adress+MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Adress+MapKit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F265F9B23D3405A00C270D7 /* JGProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +76,15 @@
 			children = (
 				6F265F7523D33C7300C270D7 /* AppDelegate.swift */,
 				6F265F7723D33C7300C270D7 /* SceneDelegate.swift */,
-				6F265F7923D33C7300C270D7 /* ContentView.swift */,
+				6F265F8923D33CB500C270D7 /* MapViewContainer.swift */,
+				6F265F8B23D33D2100C270D7 /* SelectLocationView.swift */,
+				6F265F8D23D33D8B00C270D7 /* DirectionsSearchView.swift */,
+				6F265F8F23D33DC300C270D7 /* RouteInfoView.swift */,
+				6F265F9123D33E2200C270D7 /* LoadingHUD.swift */,
+				6F265F9323D33E4900C270D7 /* MapItemView.swift */,
+				6F265F9523D33E7500C270D7 /* StatusBarCover.swift */,
+				6F265F9723D33E9500C270D7 /* DirectionsEnvironment.swift */,
+				6F265F9C23D340B100C270D7 /* Adress+MapKit.swift */,
 				6F265F7B23D33C7500C270D7 /* Assets.xcassets */,
 				6F265F8023D33C7500C270D7 /* LaunchScreen.storyboard */,
 				6F265F8323D33C7500C270D7 /* Info.plist */,
@@ -91,6 +117,9 @@
 			dependencies = (
 			);
 			name = MapDirectionRoute;
+			packageProductDependencies = (
+				6F265F9A23D3405A00C270D7 /* JGProgressHUD */,
+			);
 			productName = MapDirectionRoute;
 			productReference = 6F265F7223D33C7300C270D7 /* MapDirectionRoute.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 6F265F6923D33C7300C270D7;
+			packageReferences = (
+				6F265F9923D3405A00C270D7 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
 			productRefGroup = 6F265F7323D33C7300C270D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F265F9823D33E9500C270D7 /* DirectionsEnvironment.swift in Sources */,
 				6F265F7623D33C7300C270D7 /* AppDelegate.swift in Sources */,
+				6F265F9623D33E7500C270D7 /* StatusBarCover.swift in Sources */,
+				6F265F8A23D33CB500C270D7 /* MapViewContainer.swift in Sources */,
+				6F265F9223D33E2200C270D7 /* LoadingHUD.swift in Sources */,
+				6F265F8E23D33D8B00C270D7 /* DirectionsSearchView.swift in Sources */,
 				6F265F7823D33C7300C270D7 /* SceneDelegate.swift in Sources */,
-				6F265F7A23D33C7300C270D7 /* ContentView.swift in Sources */,
+				6F265F9423D33E4900C270D7 /* MapItemView.swift in Sources */,
+				6F265F9D23D340B100C270D7 /* Adress+MapKit.swift in Sources */,
+				6F265F9023D33DC300C270D7 /* RouteInfoView.swift in Sources */,
+				6F265F8C23D33D2100C270D7 /* SelectLocationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F265F9923D3405A00C270D7 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F265F9A23D3405A00C270D7 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F265F9923D3405A00C270D7 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F265F6A23D33C7300C270D7 /* Project object */;
 }
